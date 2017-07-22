@@ -14,6 +14,15 @@ docker-compose up
 
 Basic django app should be up on 0.0.0.0:8000
 
+When using django commands with containers run them with docker
+Most will be run on the *web* container
+
+```
+docker-compose run *service* django-admin.py *command* [OPTIONS]
+``` 
+
+## Some other info
+
 	-Roles (Developer, PM)
 
 	/Later/-Git interface/Environment (diff between inital state of main /working branches with current state (in sprint))
